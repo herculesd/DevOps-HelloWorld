@@ -21,3 +21,5 @@ deploy:
   provider: heroku
   api-key: e84e60a8-7010-4e04-9f14-c88ffb5d59db
   app: hsd-devops-helloworld
+  skip_cleanup: true
+  
