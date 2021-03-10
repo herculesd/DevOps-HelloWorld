@@ -3,7 +3,7 @@ language: python
 
 # Versão que a aplicação suporta.
 python:
-  - "3.6.3"
+  - "3.6.13"
 
 # Faz a instalação com Sudo, para ter privilégio de Super Usuário.
 sudo: required
@@ -22,4 +22,3 @@ deploy:
   api-key: e84e60a8-7010-4e04-9f14-c88ffb5d59db
   app: hsd-devops-helloworld
   skip_cleanup: true
-  
